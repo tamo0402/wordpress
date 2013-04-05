@@ -30,7 +30,7 @@ remove_action('admin_init', '_maybe_update_core');
 /**
  * 管理画面フッター関連。
  */
-add_filter('admin_footer_text', function(){return '<a href="http://a-trust.jp.net/"></a>のご利用ありがとうございます。';});
+add_filter('admin_footer_text', function(){return 'ご利用ありがとうございます。';});
 add_filter('update_footer', function(){return '';}, 20);
 
 
